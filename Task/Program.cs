@@ -33,3 +33,15 @@ void FillMainArr(string[] arr1, string[] arr2)
     }
 }
 
+// Пишем метод вывода массива
+void PrintArray(string[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i] != "")
+        {
+            Console.Write($"{arr[i]} ");
+        }
+    }
+}
+
