@@ -9,6 +9,11 @@ int lenArr = Convert.ToInt32(Console.ReadLine());
 string[] firstArr = new string[lenArr];
 string[] newArr = new string[firstArr.Length];
 
+FillArray(firstArr);
+FillMainArr(firstArr, newArr);
+Console.Write("Ваш массив: ");
+PrintArray(newArr);
+
 // Пишем метод на заполнение первичного массива
 void FillArray(string[] arr)
 {
