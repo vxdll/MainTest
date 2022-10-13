@@ -38,15 +38,15 @@ void FillMainArr(string[] arr1, string[] arr2)
     }
 }
 
-// Пишем метод вывода массива
-void PrintArray(string[] arr)
-{
-    for (int i = 0; i < arr.Length; i++)
+    // Пишем метод вывода массива
+    void PrintArray(string[] arr)
     {
-        if (arr[i] != "")
+        for (int i = 0; i < arr.Length; i++)
         {
-            Console.Write($"{arr[i]} ");
+            if (arr[i] != "")
+            {
+                Console.Write($"{arr[i] }");
+            }
         }
     }
-}
 
